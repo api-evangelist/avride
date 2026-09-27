@@ -63,7 +63,7 @@ x-coverage:
       status: 200
     - url: https://api.avride.ai
       status: 0
-  checked: 2026-09-27
+  checked: '2026-09-27'
 x-enrichment:
   date: '2026-09-27'
   status: enriched
