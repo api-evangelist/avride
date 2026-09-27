@@ -1,23 +1,72 @@
 aid: avride
+
 name: Avride
-description: 'Avride is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Avride is a leading developer in the autonomous vehicle and delivery robot industry. Founded in 2017, the company builds and operates autonomous cars and delivery robots, serving over 250,000 customers and completing more than 200,000 deliveries. Avride’s technology focuses on safety, scalability, and adaptability across diverse urban environments.'
+
 url: https://raw.githubusercontent.com/api-evangelist/avride/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
-- Company
-apis: []
+- Autonomous Vehicles
+- Delivery Robots
+- AI
+- Mobility
+- Technology
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/avride-hosts.yml
+- type: Vendors
+  url: vendors/avride-vendors.yml
+- type: GitHubOrganization
+  url: https://github.com/avride
+- type: DomainSecurity
+  url: security/avride-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/avride
+  url: https://www.avride.ai
+- type: About
+  url: https://www.avride.ai/about
+- type: Blog
+  url: https://medium.com/avride
+- type: TermsOfService
+  url: https://www.avride.ai/terms
+- type: PrivacyPolicy
+  url: https://www.avride.ai/privacy-policy
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Avride's website provides no developer documentation or API reference.
+  evidence:
+    - url: https://www.avride.ai
+      status: 200
+    - url: https://api.avride.ai
+      status: 0
+  checked: 2026-09-27
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

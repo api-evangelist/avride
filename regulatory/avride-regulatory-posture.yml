@@ -1,0 +1,49 @@
+generated: 2026-09-27
+method: derived
+source: "https://www.avride.ai/privacy-policy"
+signals:
+  data_subject_request:
+    url: "https://www.avride.ai/privacy-policy"
+    section: "Data Subject Rights"
+    note: "Provides rights to confirm, access, and correct personal data."
+    evidence:
+      - source: "https://www.avride.ai/privacy-policy"
+        http_status: 200
+        fetched: "2026-09-27"
+        quote: "Right to Confirm and Access You have the right to confirm whether AVRIDE is processing your personal data. If we are, you have the right to access that personal data. Right to Correct You have the right to ask AVRIDE to correct inaccuracies in your personal data, considering the nature of the personal data and the purposes of the "
+  incident_notification:
+    url: "https://www.avride.ai/privacy-policy"
+    section: "Data Subject Rights"
+    note: "Describes deletion requests and opt-out rights, indicating incident handling obligations."
+    evidence:
+      - source: "https://www.avride.ai/privacy-policy"
+        http_status: 200
+        fetched: "2026-09-27"
+        quote: "ask AVRIDE to delete personal data provided by or obtained about you. We will comply with your request unless an exception under the applicable law applies (e.g., the data is necessary to complete a transaction, detect security incidents, or comply with a legal obligation). Right to Opt-Out You have the right to opt out of the processing of your personal data for the purposes of: (1) targeted advertising; (2) the sal"
+  exit_assistance:
+    url: "https://www.avride.ai/privacy-policy"
+    section: "Data Subject Rights"
+    note: "Mentions data portability and rights related to exit assistance."
+    evidence:
+      - source: "https://www.avride.ai/privacy-policy"
+        http_status: 200
+        fetched: "2026-09-27"
+        quote: "our personal data for the purposes of: (1) targeted advertising; (2) the sale of personal data; or (3) profiling in furtherance of a decision that produces legal or similarly significant effects concerning you. Right to Data Portability You have the right to obtain a copy of your personal data that you previously provided to AVRIDE in a portable and, to the extent technically feasible, readily usable format that allo"
+  age_assurance:
+    url: "https://www.avride.ai/privacy-policy"
+    section: "Children's Online Privacy"
+    note: "States age restriction and lack of collection from children under 13."
+    evidence:
+      - source: "https://www.avride.ai/privacy-policy"
+        http_status: 200
+        fetched: "2026-09-27"
+        quote: "Children's Online Privacy Our Website and Services are not intended for children under 13 years of age, and we do not knowingly collect personal information from children under 13. If we learn we have collected or received personal information from a child under 13 without verification"
+  data_retention:
+    url: "https://www.avride.ai/privacy-policy"
+    section: "Data Retention"
+    note: "Specifies retention period based on purpose and legal requirements."
+    evidence:
+      - source: "https://www.avride.ai/privacy-policy"
+        http_status: 200
+        fetched: "2026-09-27"
+        quote: "We will retain your personal data for as long as is necessary to fulfil the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law. Non-personal information may be retained and used by AVRIDE without limitation."
