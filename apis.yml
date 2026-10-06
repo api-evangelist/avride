@@ -17,7 +17,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-27'
 
-modified: '2026-09-27'
+modified: '2026-10-06'
 
 tags:
 - Autonomous Vehicles
@@ -39,6 +39,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://medium.com/feed/avride
+  type: BlogRSS
 - type: Hosts
   url: hosts/avride-hosts.yml
 - type: Vendors
